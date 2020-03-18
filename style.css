@@ -24,14 +24,16 @@
   //padding: 1rem;
   flex-grow: 2;
   color: blue;
-  height: calc(60vh - 20px) 
+  height: calc(70vh - 25px);
+  //border-bottom: 1px #222222 solid;
 
   }
   #object1,#object2,#object3,#object4,#object5,#object6{font-size: 20px;
-    width: 100%;
+    width: 85%;
     height: 50px;
     font-family: auto;
     font-weight: bold;
+    border-bottom: 1px #222222 solid;
     position: relative;
      justify-content: center;
      align-self: center;
@@ -71,3 +73,4 @@ li{
 
 
   #object8{color: red;font-size: 13px;}
+  #object12{float:right;}
